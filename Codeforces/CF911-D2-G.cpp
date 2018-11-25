@@ -1,3 +1,13 @@
+/*
+Square - root decomposition
+---------------------------
+The given range is divided into sqrt(N) blocks.
+For each square root block, mappings from current to new value is stored.
+On processing a query, if a particular block lies completely in the queried range, only mappings is changed O(1)
+otherwise, the whole block is traversed in O(blk_sz) and the complete range is updated by the new value.
+
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;

@@ -1,4 +1,8 @@
-//Used OEIS to find the series and then standard matrix exponentiation problem
+/*
+Used OEIS to find the series and then standard matrix exponentiation problem
+https://oeis.org/A137726
+for n > 8: a(n) = 2*a(n-1) - a(n-3) - a(n-5) + a(n-6)
+*/
 
 #include <bits/stdc++.h>
  

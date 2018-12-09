@@ -1,4 +1,9 @@
 /*
+dp(i, r) stores the no of moves required to balance the subtree rooted at i
+if r is even dp(i, r) is the sum of dp(i.left, r/2) and dp(i.right, r/2)
+if r is odd dp(i, r) is the minimum of r/2 and (r+1)/2 ball when distributed in subtree of its child.
+The tree is constructed recursively
+*/
 
 #pragma GCC optimize ("Ofast")
 #include <bits/stdc++.h>

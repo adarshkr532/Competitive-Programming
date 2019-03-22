@@ -1,3 +1,4 @@
+//Code
 int sz;
 const int NN = 101;
 
